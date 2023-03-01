@@ -1,8 +1,11 @@
 import React from 'react'
+import TopNav from '../components/NavBar/TopNav'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <section>
+        <TopNav/>
+    </section>
   )
 }
 
