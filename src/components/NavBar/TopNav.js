@@ -10,8 +10,10 @@ const TopNav = () => {
           Welcome to made in rwanda handcrafted website
         </p>
         <div className='topnav-sect1-left'>
+          <div>
           <RxAvatar className='TopNav-icon'/>
-          <div><a href="#">login</a>/<a href="#">signup</a></div>
+          </div>
+          <div><a className='topnav-link' href="#">SignIn</a>/<a className='topnav-link' href="#">Register</a></div>
         </div>
       </div>
     </section>
