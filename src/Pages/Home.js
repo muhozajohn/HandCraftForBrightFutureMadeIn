@@ -1,10 +1,12 @@
 import React from 'react'
+import Body from '../components/Body/Body'
 import TopNav from '../components/NavBar/TopNav'
 
 const Home = () => {
   return (
     <section>
-        <TopNav/>
+        <TopNav className='home-topnav'/>
+        <Body/>
     </section>
   )
 }
