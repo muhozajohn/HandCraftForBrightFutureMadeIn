@@ -14,7 +14,9 @@ const SemNavBar = () => {
             </div>
             <div className='semnav-sect2'>
             <select>
-              <option value="option1">Option 1</option>
+              <option value="option
+              
+              1">Option 1</option>
               <option value="option2">Option 2</option>
             <option value="option3">Option 3</option>
             </select>
@@ -22,7 +24,7 @@ const SemNavBar = () => {
             </div>
             <div className='semnav-sect3'>
             <div>
-              <span>Live chat or:<span>
+              <span>Live chat or:</span>
                <span>0784535454</span>
               </div>
               <div>
